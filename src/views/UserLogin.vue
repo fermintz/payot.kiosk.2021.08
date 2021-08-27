@@ -9,7 +9,9 @@
           <v-col cols="3">
             <dl>
               <dt>
-                <span>이미지</span>
+                <span>
+                  <img src="/img/use_01.png">
+                </span>
               </dt>
               <dd>
                 <label>01</label>
@@ -22,7 +24,7 @@
           </v-col>
           <v-col cols="3">
             <dl>
-              <dt><span>이미지</span></dt>
+              <dt><span><img src="/img/use_02.png"></span></dt>
               <dd>
                 <label>02</label>
                 <strong>키오스크 로그인</strong>
@@ -34,7 +36,7 @@
           </v-col>
           <v-col cols="3">
             <dl>
-              <dt><span>이미지</span></dt>
+              <dt><span><img src="/img/use_03.png"></span></dt>
               <dd>
                 <label>03</label>
                 <strong>장비 및 상품선택</strong>
@@ -46,7 +48,9 @@
           </v-col>
           <v-col cols="3">
             <dl>
-              <dt>이미지</dt>
+              <dt>
+                <span><img src="/img/use_04.png"></span>
+              </dt>
               <dd>
                 <label>04</label>
                 <strong>세탁시작</strong>
@@ -62,7 +66,7 @@
           <v-col cols="3">
             <dl>
               <dt>
-                <span>이미지</span>
+                <span><img src="/img/cha_01.png"></span>
               </dt>
               <dd>
                 <label>01</label>
@@ -75,7 +79,9 @@
           </v-col>
           <v-col cols="3">
             <dl>
-              <dt><span>이미지</span></dt>
+              <dt>
+                <span><img src="/img/cha_02.png"></span>
+              </dt>
               <dd>
                 <label>02</label>
                 <strong>충전방법 선택</strong>
@@ -88,7 +94,9 @@
           </v-col>
           <v-col cols="3">
             <dl>
-              <dt><span>이미지</span></dt>
+              <dt>
+                <span><img src="/img/cha_03.png"></span>
+              </dt>
               <dd>
                 <label>03</label>
                 <strong>충전금액 선택</strong>
@@ -100,7 +108,9 @@
           </v-col>
           <v-col cols="3">
             <dl>
-              <dt>이미지</dt>
+              <dt>
+                <span><img src="/img/cha_04.png"></span>
+              </dt>
               <dd>
                 <label>04</label>
                 <strong>키오스크 이용</strong>
@@ -196,9 +206,17 @@ export default {
           align-items: center;
           background:#e2e2e2;
           border-radius:15px;
+          overflow:hidden;
 
           span{
+            width:100%;
             position: absolute;
+            
+            img{
+              display:block;
+              width:100%;
+              height:100%;
+            }
           }
         }
         dt:after{
