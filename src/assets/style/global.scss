@@ -1,0 +1,112 @@
+@import '~vuetify/src/styles/styles.sass';
+
+html,body{
+  height:100%;
+  max-height:100%;
+  overflow:hidden;
+  font-size:36px;
+  font-family:'Roboto','SCDream';
+  word-break: keep-all;
+  scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+  line-height:1.4;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family:'Roboto','SCDream' ;
+  font-weight:500;
+}
+
+label,span,div,ul,li,ol,dl,dt,dd,strong,p{
+  line-height:1.6;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family:'Roboto','SCDream' ;
+  font-weight:400;
+  margin:0;
+  padding:0;
+}
+
+ul{
+  list-style: none;
+}
+
+.v-btn{
+  font-family:'Roboto','SCDream';
+}
+
+.v-bottom-sheet{
+  box-shadow: none;
+}
+
+.v-dialog{
+  box-shadow: none;
+  overflow: initial;
+}
+
+
+.modal{
+  background:#fff;
+  border-radius:0 30px 0 30px;
+  overflow:hidden;
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.15);
+
+  .cont{
+    padding:45px;
+
+    .title-text{
+      span{
+        color:#d22828
+      }
+    }
+    p{
+      color:#888;
+      font-size:30px;
+      margin:0px;
+      margin-top:24px;
+    }
+  }
+  .bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:#0686D2;
+
+    .v-divider{
+      width:3px;
+      height:60px;
+      background:rgba(255,255,255,0.3);
+    }
+
+    .v-btn{
+      flex:1;
+      height:110px;
+      color:#fff;
+    }
+  }
+}
+
+.page-title{
+  p{
+    margin:0;
+    padding:0;
+    margin-top:20px;
+    color:#888;
+
+    span{
+      color:#0686D2
+    }
+  }
+}
+
+/* 애니메이션 */
+
+@keyframes sparkleBtn {
+  0%{
+    background:#DE0059;
+  }
+  50%{
+    background:#FF3E8C;
+  }
+}
