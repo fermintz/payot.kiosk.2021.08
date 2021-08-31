@@ -71,15 +71,18 @@
     <!-- bottom -->
 
     <Footer />
+
+    <Progress />
   </div>
 </template>
 
 <script>
 import Footer from '@/components/footer'
+import Progress from '@/components/modal/progress.vue'
 
 export default {
   components: {
-    Footer
+    Footer, Progress
   },
   mounted(){
   

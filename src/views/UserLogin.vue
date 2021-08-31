@@ -148,9 +148,11 @@
       <NumberPad @update="ModalOpen"/>
     </div>
 
+    
     <JoinModal ref="joinModal" />
     <MemberModal ref="memberModal" />
     <PassChange />
+    
   </div>
 </template>
 
@@ -161,9 +163,10 @@ import MemberModal from '@/components/modal/member'
 import NumberPad from '@/components/numberPad'
 import PassChange from '@/components/modal/passChange'
 
+
 export default {
   components:{
-    JoinModal, NumberPad, MemberModal, PassChange
+    JoinModal, NumberPad, MemberModal, PassChange,
   },
   methods:{
     ModalOpen(e){
